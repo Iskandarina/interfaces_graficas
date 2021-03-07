@@ -1,0 +1,95 @@
+<html> 
+<!--Creado a partir del material extraido de https://doc.x3dom.org/tutorials/basics/hello/index.html-->
+   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+     <title>Metano</title> 
+     <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'> </script> 
+     <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'></link> 
+   </head> 
+   <body> 
+     <h1>Metano</h1> 
+    
+	 <x3d width='300px' height='200px'> 
+	   <scene> 
+        <shape> 
+         <appearance> 
+           <material diffuseColor='1 0 1'></material> 
+         </appearance> 
+         <sphere  radius = 1.5 ></sphere> 
+        </shape> 
+        <transform translation='-2 0 0'> 
+             <transform rotation="0 0 1 1.57">
+                <shape> 
+			     <appearance> 
+			       <material diffuseColor='1 1 1'></material> 
+			     </appearance> 
+			      <Cylinder height = 1 radius = 0.25 ></Cylinder> 
+		      </shape> 
+             </transform>
+        </transform> 
+		<transform translation='-3 0 0'> 
+		  <shape> 
+			 <appearance> 
+			   <material diffuseColor='0 1 0'></material> 
+			 </appearance> 
+			 <sphere radius = 0.6 ></sphere> 
+		  </shape> 
+		</transform>
+        <transform translation='2 0 0'> 
+             <transform rotation="0 0 1 1.57">
+                <shape> 
+			     <appearance> 
+			       <material diffuseColor='1 1 1'></material> 
+			     </appearance> 
+			      <Cylinder height = 1 radius = 0.25 ></Cylinder> 
+		      </shape> 
+             </transform>
+        </transform>  
+		<transform translation='3 0 0'> 
+		  <shape> 
+			 <appearance> 
+			   <material diffuseColor='0 1 0'></material> 
+			 </appearance> 
+			 <sphere radius = 0.6 ></sphere> 
+		  </shape> 
+		</transform> 
+        <transform translation='0 2 0'> 
+              
+                <shape> 
+			     <appearance> 
+			       <material diffuseColor='1 1 1'></material> 
+			     </appearance> 
+			      <Cylinder height = 1 radius = 0.25 ></Cylinder> 
+		      </shape> 
+              
+        </transform> 
+        <transform translation='0 3 0'> 
+		  <shape> 
+			 <appearance> 
+			   <material diffuseColor='0 1 0'></material> 
+			 </appearance> 
+			 <sphere radius = 0.6 ></sphere> 
+		  </shape> 
+		</transform>
+        <transform translation='0 -2 0'> 
+              
+                <shape> 
+			     <appearance> 
+			       <material diffuseColor='1 1 1'></material> 
+			     </appearance> 
+			      <Cylinder height = 1 radius = 0.25 ></Cylinder> 
+		      </shape> 
+              
+        </transform>  
+        <transform translation='0 -3 0'> 
+		  <shape> 
+			 <appearance> 
+			   <material diffuseColor='0 1 0'></material> 
+			 </appearance> 
+			 <sphere radius = 0.6 ></sphere> 
+		  </shape> 
+		</transform> 
+	   </scene> 
+	</x3d> 
+   </body> 
+</html> 
