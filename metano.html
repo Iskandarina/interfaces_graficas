@@ -12,11 +12,13 @@
 	 <x3d width='300px' height='200px'> 
 	   <scene> 
         <shape> 
-         <appearance> 
+         <appearance>
+			<!--Creación de esfera central-->
            <material diffuseColor='1 0 1'></material> 
          </appearance> 
          <sphere  radius = 1.5 ></sphere> 
         </shape> 
+		<!--Configuración asociada a los cilindros que unen el átomo central de carbono con los cuatro de hidrógeno-->
         <transform translation='-2 0 0'> 
              <transform rotation="0 0 1 1.57">
                 <shape> 
@@ -29,6 +31,7 @@
         </transform> 
 		<transform translation='-3 0 0'> 
 		  <shape> 
+		  <!--Tamaño, color, radio y ubicación de los átomos de hidrógeno-->
 			 <appearance> 
 			   <material diffuseColor='0 1 0'></material> 
 			 </appearance> 
@@ -93,3 +96,4 @@
 	</x3d> 
    </body> 
 </html> 
+
